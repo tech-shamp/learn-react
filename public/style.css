@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/lato-bold.woff2);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url(fonts/lato-bold-italic.woff2);
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 900;
+  font-display: swap;
+  src: url(fonts/lato-ExtraBold.woff2);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/raleway-regular.woff2);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 100;
+  font-display: swap;
+  src: url(fonts/raleway-thin.woff2);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/raleway-medium.woff2);
+}
+
+:root {
+  --color-primary: #1c1c1c;
+  --color-secondary: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: "Raleway";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
+}
